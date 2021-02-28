@@ -3,7 +3,7 @@
 #include <iostream>
 
 int main()
-{
+{ 
 	HWND hwnd = GetDesktopWindow();
 	HDC hdc = GetDC(hwnd);
 	int ScrW = GetSystemMetrics(SM_CXSCREEN);
