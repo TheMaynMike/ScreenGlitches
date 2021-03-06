@@ -2,6 +2,8 @@
 
 int main()
 {
+	ShowWindow(GetConsoleWindow(), SW_HIDE);
+	
 	HDC hdc = GetDC(GetDesktopWindow()); 
 	int ScrW = GetSystemMetrics(SM_CXSCREEN);
 	int ScrH = GetSystemMetrics(SM_CYSCREEN);
